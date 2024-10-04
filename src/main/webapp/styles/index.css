@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    background-color: lightgray;
+}
+
+/* Cabeçalho */
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-variant: small-caps;
+}
+
+
+/* Container Principal */
+#div-conteudo {
+    background-color: white;
+    margin: 60px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    overflow: auto;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+#div-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: flex-start;
+}
+
+
+/* Tabela */
+table {
+    width: 100%;
+    text-align: center;
+}
+
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0 2px;
+    height: 1.6em;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+a {
+    height: max-content;
+}
+
+img {
+    height: 23px;
+    object-fit: contain;
+}
+
+/* Botões */
+input {
+    padding: 0px 4px;
+    height: 27px;
+    border-radius: 7px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+input[value="Novo Carro"] {
+    margin-right: 30px;
+} 

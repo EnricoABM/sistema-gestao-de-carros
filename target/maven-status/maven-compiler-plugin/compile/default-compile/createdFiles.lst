@@ -1,0 +1,4 @@
+com\da\projetocrud\model\Carro.class
+com\da\projetocrud\controller\CarroController.class
+com\da\projetocrud\dao\CarroDAO.class
+com\da\projetocrud\util\Conexao.class
