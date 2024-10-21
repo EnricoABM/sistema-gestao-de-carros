@@ -8,4 +8,4 @@ alterar e deletar o carros.
 
 
 A aplicação foi desenvolvida utilizando o Web Container Tomcat, com 
-as tecnologias Servlet e JSPs, em conjunto com o SGBD Relacional MySQL.
+as tecnologias Servlet e JSPs, em conjunto com o SGBD Relacional PostgreSQL.
